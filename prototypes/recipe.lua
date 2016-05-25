@@ -25,7 +25,7 @@ data:extend({
      name = "wood-to-syngas",
      category = "oil-processing",
      enabled = false,
-     energy_required = 5,
+     energy_required = 3,
      ingredients =
      {
        {type="item", name="raw-wood", amount=9}
@@ -63,7 +63,7 @@ data:extend({
       type = "recipe",
       name = "solid-fuel-from-syngas",
       category = "chemistry",
-      energy_required = 3,
+      energy_required = 7,
       ingredients =
       {
         {type="fluid", name="syngas", amount=3}
@@ -82,7 +82,7 @@ data:extend({
       type = "recipe",
       name = "lubricant-from-syngas",
       category = "chemistry",
-      energy_required = 2,
+      energy_required = 5,
       ingredients =
       {
         {type="fluid", name="syngas", amount=3}
@@ -117,4 +117,23 @@ data:extend({
       order = "b[fluid-chemistry]-d[synthetic-crude-from-syngas]"
     }
 
+    {
+      type = "recipe",
+      name = "oil-shale-to-crude-oil",
+      category = "chemistry",
+      energy_required = 10,
+      ingredients =
+      {
+        {type="item", name="oil-shale", amount=1}
+        {type="fluid", name="water", amount=5}
+      },
+      results=
+      {
+        {type="fluid", name="crude-oil", amount=1}
+      },
+      icon = "__Carbon__/graphics/icons/fluid/ft-process.png",
+      subgroup = "fluid-recipes",
+      enabled = false,
+      order = "b[fluid-chemistry]-d[synthetic-crude-from-syngas]"
+    }
 })
