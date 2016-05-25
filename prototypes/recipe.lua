@@ -115,7 +115,7 @@ data:extend({
       subgroup = "fluid-recipes",
       enabled = false,
       order = "b[fluid-chemistry]-d[synthetic-crude-from-syngas]"
-    }
+    },
 
     {
       type = "recipe",
@@ -124,7 +124,7 @@ data:extend({
       energy_required = 10,
       ingredients =
       {
-        {type="item", name="oil-shale", amount=1}
+        {type="item", name="carbon-oilshale", amount=1},
         {type="fluid", name="water", amount=5}
       },
       results=
