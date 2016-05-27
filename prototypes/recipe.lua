@@ -17,7 +17,7 @@ data:extend({
     },
     icon = "__Carbon__/graphics/icons/fluid/ft-process.png",
     subgroup = "fluid-recipes",
-    order = "a[oil-processing]-a[coal-to-syngas]"
+    order = "a[coal-to-syngas]"
   },
 
   {
@@ -36,7 +36,7 @@ data:extend({
      },
      icon = "__Carbon__/graphics/icons/fluid/ft-process.png",
      subgroup = "fluid-recipes",
-     order = "a[oil-processing]-a[wood-to-syngas]"
+     order = "a[wood-to-syngas]"
    },
 
   {
@@ -56,7 +56,7 @@ data:extend({
      },
      icon = "__Carbon__/graphics/icons/fluid/ft-process.png",
      subgroup = "fluid-recipes",
-     order = "a[oil-processing]-a[syngas-to-petroleum-gas]"
+     order = "a[syngas-to-petroleum-gas]"
    },
 
    {
@@ -75,7 +75,7 @@ data:extend({
       icon = "__Carbon__/graphics/icons/fluid/ft-process.png",
       subgroup = "fluid-recipes",
       enabled = false,
-      order = "b[fluid-chemistry]-d[solid-fuel-from-syngas]"
+      order = "b[solid-fuel-from-syngas]"
     },
 
     {
@@ -94,7 +94,7 @@ data:extend({
       icon = "__Carbon__/graphics/icons/fluid/ft-process.png",
       subgroup = "fluid-recipes",
       enabled = false,
-      order = "b[fluid-chemistry]-d[lubricant-from-syngas]"
+      order = "b[lubricant-from-syngas]"
     },
 
     {
@@ -114,7 +114,7 @@ data:extend({
       icon = "__Carbon__/graphics/icons/fluid/ft-process.png",
       subgroup = "fluid-recipes",
       enabled = false,
-      order = "b[fluid-chemistry]-d[synthetic-crude-from-syngas]"
+      order = "b[synthetic-crude-from-syngas]"
     },
 
     {
@@ -134,6 +134,6 @@ data:extend({
       icon = "__Carbon__/graphics/icons/fluid/ft-process.png",
       subgroup = "fluid-recipes",
       enabled = false,
-      order = "b[fluid-chemistry]-d[synthetic-crude-from-syngas]"
+      order = "b[synthetic-crude-from-syngas]"
     }
 })
